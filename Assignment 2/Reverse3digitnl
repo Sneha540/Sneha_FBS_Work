@@ -1,0 +1,6 @@
+number = int(input("Enter a three-digit number: "))
+hundreds = number // 100
+tens = (number // 10) % 10
+ones = number % 10
+reversed_number = (ones * 100) + (tens * 10) + hundreds
+print(f"The reverse of {number} is: {reversed_number}")
